@@ -2,12 +2,14 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: 'Inter', sans-serif; */
+}
+main section{
+    margin-bottom: 100px;
 }
 /* header-banner styles */
 .banner-container{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner.png');
-    margin: 40px 100px;
+    margin: 40px 100px 100px;
     background-size: cover;
     background-position: bottom;
     padding: 120px 100px;
@@ -24,4 +26,33 @@
     font-size: 72px;
     margin-top: 16px;
     line-height: 90px;
+}
+
+/* all categories section styles */
+.categories-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    font-family: 'Inter', sans-serif;;
+}
+.categories-sale-text{
+    font-size: 88px;
+    font-weight: 700;
+    color: #f00;
+}
+.categories-sub-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #f00;
+}
+.categories-text{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+.new-year-img img{
+    width: 100%;
+    height: 400px;
 }
