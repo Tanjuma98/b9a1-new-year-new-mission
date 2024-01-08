@@ -214,3 +214,61 @@ main section {
 .img-container img:hover {
     opacity: 0.5;
 }
+
+/* subscribe section styles */
+.subscribe-container {
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 60px 80px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.subscribe-container * {
+    margin-bottom: 16px;
+}
+
+.subscribe-container h2 {
+    color: #070211;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.subscribe-container form {
+    width: 65%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.subscribe-container form input[type="email"] {
+    width: 70%;
+    padding: 16px 20px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    outline: none;
+}
+
+.subscribe-container form input[type="submit"] {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 0px 18px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+}
